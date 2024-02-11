@@ -1,30 +1,37 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <el-container>
+    <el-header>
+      <HeaderItem />
+    </el-header>
+    <el-container>
+      <el-aside>
+        <NavBar />
+      </el-aside>
+      <el-main>
+        <el-card class="box-card">
+          <router-view />
+        </el-card>
+      </el-main>
+    </el-container>
+  </el-container>
 </template>
 
+<script>
+import NavBar from "./components/NavBar";
+import HeaderItem from "./components/HeaderItem";
+
+export default {
+  components: {
+    NavBar,
+    HeaderItem,
+  },
+  mounted() {
+    this.$store.dispatch("allProducts");
+    this.$store.dispatch("allFoods");
+  },
+};
+</script>
+
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
+@import "./styles/app.scss";
 </style>

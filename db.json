@@ -1,0 +1,133 @@
+{
+  "product": [
+    {
+      "id": "4df4",
+      "title": "Sut",
+      "type": 1,
+      "price": "4500"
+    },
+    {
+      "id": "e785",
+      "title": "Sabzi",
+      "type": 0,
+      "price": "5600"
+    },
+    {
+      "id": "3464",
+      "title": "Non",
+      "type": 2,
+      "price": "2800"
+    },
+    {
+      "id": "d49b",
+      "title": "Guruch",
+      "type": 0,
+      "price": "16500"
+    },
+    {
+      "id": "95db",
+      "title": "Karam",
+      "type": 2,
+      "price": "3200"
+    },
+    {
+      "id": "87a0",
+      "title": "Kartoshka",
+      "type": 0,
+      "price": "4499"
+    },
+    {
+      "id": "b6c3",
+      "title": "Sari yog'",
+      "type": 0,
+      "price": "32350"
+    },
+    {
+      "id": "2247",
+      "title": "Mol go'shti",
+      "type": 0,
+      "price": "80000"
+    }
+  ],
+  "food": [
+    {
+      "id": "0bfe",
+      "summa": 17136,
+      "products": [
+        {
+          "product": "e785",
+          "weight": 8
+        },
+        {
+          "product": "3464",
+          "weight": 6
+        },
+        {
+          "product": "b6c3",
+          "weight": 9
+        }
+      ],
+      "title": "Osh"
+    },
+    {
+      "id": "9981",
+      "summa": 16128,
+      "products": [
+        {
+          "product": "87a0",
+          "weight": 10
+        },
+        {
+          "product": "d49b",
+          "weight": 5
+        },
+        {
+          "product": "2247",
+          "weight": 200
+        }
+      ],
+      "title": "sho'rva"
+    },
+    {
+      "id": "df0b",
+      "summa": 2321,
+      "products": [
+        {
+          "product": "4df4",
+          "weight": 300
+        },
+        {
+          "product": "b6c3",
+          "weight": 30
+        }
+      ],
+      "title": "adfa"
+    },
+    {
+      "id": "f89c",
+      "summa": 12822,
+      "products": [
+        {
+          "product": "e785",
+          "weight": 4
+        },
+        {
+          "product": "95db",
+          "weight": 4
+        }
+      ],
+      "title": "fddsa"
+    },
+    {
+      "id": "a9b2",
+      "summa": 8811,
+      "products": [
+        {
+          "product": "d49b",
+          "weight": 534
+        }
+      ],
+      "title": "dsf"
+    }
+  ]
+}
